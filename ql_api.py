@@ -48,3 +48,4 @@ def get_crons_log(cron_id: int) -> Tuple[bool, Any]:
     if j_data['code'] == 200:
         return True, j_data['data']
     return False, None
+

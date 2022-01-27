@@ -16,3 +16,4 @@ if __name__ == '__main__':
     client = TelegramClient('tg_user', api_id, api_hash, proxy=proxy)
     with client:
         client.loop.run_until_complete(main())
+
