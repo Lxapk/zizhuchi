@@ -1,0 +1,4 @@
+/venv/
+/.idea/
+*.session
+tg_config.py
