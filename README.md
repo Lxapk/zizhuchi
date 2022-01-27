@@ -16,3 +16,9 @@ proxy = {
     'password': 'pwd' #可选
 }
 ```
+
+脚本需要以下依赖
+
+- telethon
+- requests
+- python-socks[asyncio]
