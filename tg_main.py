@@ -1,5 +1,5 @@
 """
-cron: * * * * 1
+cron: 1 0 * * 1
 new Env('互助池自动上车');
 """
 import asyncio
@@ -37,12 +37,14 @@ async def main():
         return
     code_list = get_code()
     print("共获取到{}条数据".format(len(code_list)))
+    print("-" * 20)
     for code in code_list:
         await client.send_message("@JDShareCodebot", code)
-    print("发送完成")
+        print(code + "\n")
+    print("-" * 20)
+    print("全部发送完成")
 
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
-
