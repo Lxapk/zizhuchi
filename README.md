@@ -1,7 +1,7 @@
 #### 拉库命令
 
 ```
-ql repo https://github.com/Ubugs/MyScripts.git "tg_main" "" "ql_api|tg_login"```
+ql repo https://github.com/Ubugs/MyScripts.git "tg_main" "" "ql_api|tg_login"
 ```
 
 互助池自动上车需要在脚本同目录下添加以下文件
