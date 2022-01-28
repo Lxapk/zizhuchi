@@ -1,5 +1,5 @@
 """
-cron: 1 0 * * 1
+cron: 0 0 * * 1
 new Env('互助池自动上车');
 """
 import asyncio
